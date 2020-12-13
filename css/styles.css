@@ -17,7 +17,7 @@ html {
 body {
     font-family: "yu Gothic Medimu", "游ゴシック Medium", YuGothic, "游ゴシック体","ヒラギノ角ゴ Pro W3", sans-serif;
     line-height: 1.7;
-          color: rgb(252, 252, 252);
+          color: rgb(0, 0, 0);
 }
 
 a {
@@ -48,7 +48,7 @@ img {
 }
 
 .main-nav a {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .main-nav a :hover{
@@ -73,16 +73,16 @@ img {
 }
 
 .home-content p {
-    font-size:  1.125rem;
-    margin: 10px 0 42px;
+    font-size:  2rem;
 }
 
 /*見出し*/
 .page-title {
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: 'Philosopher', serif ;
     text-transform: uppercase;
     font-weight: normal;
+    margin-top: 190px;
 }
 
 /*ボタン*/
@@ -107,7 +107,7 @@ img {
 }
 
 #home {
-    background-image: url(../images/benjamin-davies-JrZ1yE1PjQ0-unsplash.jpg) ;
+    background-image: url(../images/luis-melendez-Pd4lRfKo16U-unsplash.jpg) ;
     /*background-color: rgb(199, 196, 193);*/
     min-height: 100vh;
 }
@@ -272,7 +272,7 @@ textarea{
 
 /*------------footer--------------------*/
 footer{
-    background: #432;
+    background: rgb(168, 185, 233);
     text-align: center;
     padding: 26px 0;
 }
