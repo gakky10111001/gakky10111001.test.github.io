@@ -51,7 +51,7 @@ img {
     color: rgb(0, 0, 0);
 }
 
-.main-nav a :hover{
+.main-nav a:hover{
     color: #0bd;
 }
 
@@ -106,6 +106,11 @@ img {
     background-repeat: no-repeat;
 }
 
+.big-box{
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
 #home {
     background-image: url(../images/luis-melendez-Pd4lRfKo16U-unsplash.jpg) ;
     /*background-color: rgb(199, 196, 193);*/
@@ -124,6 +129,51 @@ img {
     margin-bottom: 50px;
     color: rgb(0, 0, 0);
 
+}
+
+
+/* ------記事部分------- */
+article{
+    width: 74%;
+}
+
+/* ------サイドバー------- */
+
+.news-contents{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+/* ------サイドバー------- */
+
+.news-contents{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.sub-title{
+    font-size: 1.375rem;
+    padding: 0 8px 8px;
+    border-bottom: 2px #0bd solid;
+    font-weight: normal;
+}
+
+.sub-menu{
+    margin-bottom: 60px;
+    list-style: none;
+}
+.sub-menu li{
+    border-bottom: 1px #ddd solid;
+}
+.sub-menu a{
+    color: #432;
+    padding: 10px;
+    display: block;
+}
+.sub-menu a:hover{
+    color: #0bd;
 }
 
 /*-----Contakt-------*/
@@ -192,7 +242,7 @@ iframe{
 /* --sns-- */
 
 #sns{
-    background: rgba(255, 228, 74, 0.467);
+    background: rgba(252, 252, 252, 0.467);
     padding: 4% 0;
 }
 
@@ -219,16 +269,18 @@ iframe{
         margin-top: 20px;
     }
     .page-title{
-        font-size: 2.5rem;
+        font-size: 3.6rem;
     }
 
     /*--head--*/
     .main-nav{
-        font-size: 1rem;
+        display: grid;
+        grid-template-columns: 150px 150px 150px;
+        font-size: 0.9rem;
         margin-top: 10px;
     }
     .main-nav li{
-        margin:  0 20px;
+        margin:  0 10px;
     }
 
     /*--home--*/
@@ -267,8 +319,6 @@ textarea{
 .sns-box{
     margin-bottom: 30px;
 }
-
-
 
 /*------------footer--------------------*/
 footer{
